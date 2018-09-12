@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Roboto+Mono');
+.widget-content{
+
+}
+.widget-tool {
+  background: #2c405b;
+  color:#fff;
+  display:flex;
+  line-height: 50px;
+  span{
+    width: 7px;
+    background: #50be72;
+    height: 7px;
+    border-radius: 50%;
+    align-self: center;
+    margin-right: 5px;
+  }
+  button{
+    background: #0f223b;
+    width: 20px;
+    color: #fff;
+    border-radius: 50%;
+    border: 0;
+    height: 20px;
+    align-self: center;
+    img{
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+}
+.main-time {
+  display: inline-flex;
+  .time_track {
+    display: flex;
+  }
+  .play_stop_widget{
+    border-radius: 50%;
+    width: 32px;
+    height: 30px;
+    border: 0;
+    line-height: 6px;
+    align-self: center;
+    margin: 0 10px;
+    background: #466171;
+  }
+}
